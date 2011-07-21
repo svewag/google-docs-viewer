@@ -1,0 +1,11 @@
+{
+   "background_page": "background.html",
+   "description": "replace google docs URL with an iFrame within Jira",
+   "name": "Google Docs iFrame Viewer for Jira",
+   "version": "0.8",
+   "content_scripts": [
+    {
+      "matches": ["https://webperfect.sinnerschrader.de/*"],
+      "js": ["js/jquery.js", "js/myscript.js"]
+    }]
+}
